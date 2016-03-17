@@ -1,0 +1,9 @@
+Content/ filter=lfs diff=lfs merge=lfs -text
+Content/Collections filter=lfs diff=lfs merge=lfs -text
+Content/Developers filter=lfs diff=lfs merge=lfs -text
+Content/MovementAnimsetPro filter=lfs diff=lfs merge=lfs -text
+Content/PlayerCharacter.uasset filter=lfs diff=lfs merge=lfs -text
+Content/SwordAnimsetPro filter=lfs diff=lfs merge=lfs -text
+Content/ThirdPerson filter=lfs diff=lfs merge=lfs -text
+*.sdf filter=lfs diff=lfs merge=lfs -text
+Content/* filter=lfs diff=lfs merge=lfs -text
