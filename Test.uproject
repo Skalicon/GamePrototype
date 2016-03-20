@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.9",
+	"EngineAssociation": "{ACA9F5D0-4735-E6A4-6D5B-F0BD57F703AA}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -11,13 +11,6 @@
 			"AdditionalDependencies": [
 				"Engine"
 			]
-		}
-	],
-	"Plugins": [
-		{
-			"Name": "Substance",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/offers/2f6439c2f9584f49809d9b13b16c2ba4"
 		}
 	],
 	"TargetPlatforms": [

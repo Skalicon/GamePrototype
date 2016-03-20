@@ -103,7 +103,7 @@ void AWeapon::Attack()
 					ATestCharacter* hitActor = Cast<ATestCharacter>(hitResult.GetActor());
 					if (hitActor) {
 						FHitResult hitResult2;
-						if (hitActor->Mesh->LineTraceComponent(hitResult2, node->socketLastTickLocation, currentSocketLocation, TraceParams)) {
+						if (hitActor->GetMesh()->LineTraceComponent(hitResult2, node->socketLastTickLocation, currentSocketLocation, TraceParams)) {
 							bIsAttacking = false;
 							UE_LOG(LogTemp, Warning, TEXT("Node %d collided with %s"), node->socketIndex, *hitResult2.BoneName.ToString());
 						}
