@@ -272,7 +272,7 @@ void ATestCharacter::AddWeapon(class AWeapon* Weapon)
 		Weapon->SetActorEnableCollision(false);
 		Weapon->OnEnterInventory(this);
 		Inventory.AddUnique(Weapon);
-		Mesh->MoveIgnoreActors.Add(Weapon);
+		GetMesh()->MoveIgnoreActors.Add(Weapon);
 		// Equip first weapon in inventory
 		if (Inventory.Num() > 0 && CurrentWeapon == nullptr) {
 			EquipWeapon(Inventory[0]);
